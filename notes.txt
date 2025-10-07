@@ -1,0 +1,36 @@
+07/10/25
+
+estudar:
+	-> alocação de memória
+		-> new(), delete()
+		->stack
+		->heap
+
+	-> ponteiros
+		-> ponteiro para string
+		->endereço de memória
+		-> manipulação de endereços
+
+	-> referências
+		-> referências a uma string
+
+
+
+	-> switch case
+
+
+
+fazer:
+	->config vscode snippets*
+
+
+
+links:
+
+	https://cplusplus.com/doc/tutorial/dynamic/
+
+	https://cplusplus.com/doc/tutorial/pointers/               
+
+	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only
+
+	https://en.cppreference.com/w/cpp/language/switch.html
