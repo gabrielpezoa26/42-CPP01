@@ -1,6 +1,9 @@
-07/10/25
+08/10/25
 
 estudar:
+
+	->destrutores
+
 	-> alocação de memória
 		-> new(), delete()
 		->stack
@@ -21,7 +24,32 @@ estudar:
 
 
 fazer:
-	->config vscode snippets*
+	->
+
+
+
+
+
+
+
+
+exemplo:
+
+int * foo;
+foo = new (nothrow) int [5];
+if (foo == nullptr) {
+  // error assigning memory. Take measures.
+}
+
+delete foo
+
+
+
+
+
+
+
+
 
 
 
@@ -29,7 +57,7 @@ links:
 
 	https://cplusplus.com/doc/tutorial/dynamic/
 
-	https://cplusplus.com/doc/tutorial/pointers/               
+	https://cplusplus.com/doc/tutorial/pointers/
 
 	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only
 
