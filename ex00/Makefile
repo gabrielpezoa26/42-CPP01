@@ -40,4 +40,7 @@ fclean: clean
 run: all
 	./$(NAME)
 
+val: all
+	valgrind ./$(NAME)
+
 re: fclean all

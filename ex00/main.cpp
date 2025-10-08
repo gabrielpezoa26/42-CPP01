@@ -6,13 +6,18 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/08 14:52:00 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/08 14:52:01 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/08 19:08:29 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-int main(int argc, char **argv)
+Zombie::Zombie(std::string name)
+{
+	
+}
+
+int main()
 {
 	
 }

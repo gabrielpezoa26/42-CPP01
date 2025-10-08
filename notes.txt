@@ -9,10 +9,13 @@ estudar:
 		->stack
 		->heap
 
+
+
 	-> ponteiros
 		-> ponteiro para string
-		->endereço de memória
+		-> endereço de memória
 		-> manipulação de endereços
+
 
 	-> referências
 		-> referências a uma string
@@ -20,15 +23,6 @@ estudar:
 
 
 	-> switch case
-
-
-
-fazer:
-	->
-
-
-
-
 
 
 
