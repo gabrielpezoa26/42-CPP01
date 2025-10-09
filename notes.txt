@@ -1,5 +1,22 @@
 08/10/25
 
+
+
+ex00:
+	-> destrutor()
+	-> arrumar os sleep()
+
+	->tratar erros:
+		-> empty()
+		-> mesmo nome?
+
+	-> revisar nomes
+
+	->tirar debugPrint
+
+
+
+
 estudar:
 
 	->destrutores
@@ -23,20 +40,6 @@ estudar:
 
 
 	-> switch case
-
-
-
-
-exemplo:
-
-int * foo;
-foo = new (nothrow) int [5];
-if (foo == nullptr) {
-  // error assigning memory. Take measures.
-}
-
-delete foo
-
 
 
 

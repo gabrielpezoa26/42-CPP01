@@ -1,4 +1,4 @@
-NAME = Brainzz
+NAME = brainz
 OBJECTS = objects/main.o objects/Zombie.o objects/newZombie.o objects/randomChump.o
 
 CC = c++
@@ -41,6 +41,6 @@ run: all
 	./$(NAME)
 
 val: all
-	valgrind ./$(NAME)
+	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./$(NAME)
 
 re: fclean all
