@@ -1,26 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   randomChump.cpp                                    :+:      :+:    :+:   */
+/*   zombieHorde.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/08 14:52:10 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/10 16:31:51 by gcesar-n         ###   ########.fr       */
+/*   Created: 2025/10/10 16:37:01 by gcesar-n          #+#    #+#             */
+/*   Updated: 2025/10/10 16:52:14 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-void Zombie::announce()
+Zombie* zombieHorde( int N, std::string name )
 {
-	std::cout << "BraiiiiiiinnnzzzZ\n" << std::endl;
-}
+	Zombie *horde;
+	horde = new Zombie[N];
+	
+	
+	int count = 0;
 
-void randomChump(std::string name)
-{
-	Zombie kidZombie(name);
-
-	std::cout << name << ": ";
-	kidZombie.announce();
+	horde->name = name;
+	
+	return (horde)
+	
 }

@@ -1,20 +1,4 @@
-08/10/25
-
-
-
-ex00:
-	-> destrutor()
-	-> arrumar os sleep()
-
-	->tratar erros:
-		-> empty()
-		-> mesmo nome?
-
-	-> revisar nomes
-
-	->tirar debugPrint
-
-
+10/10/25
 
 
 estudar:
@@ -24,6 +8,7 @@ estudar:
 	-> alocação de memória
 		-> new(), delete()
 		->stack
+			-> new[]
 		->heap
 
 
