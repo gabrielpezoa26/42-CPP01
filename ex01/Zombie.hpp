@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:34:43 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/10 16:38:11 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/10 18:41:10 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,14 @@ class Zombie
 
 
 	public:
+	Zombie();
 	Zombie(std::string name);
 	~Zombie();
 	void announce(void);
+	void setZombieName(std::string given_name);
 };
 
-Zombie *newZombie(std::string name);
-
-#endif
+Zombie *zombieHorde( int N, std::string name );
 
 
 #endif

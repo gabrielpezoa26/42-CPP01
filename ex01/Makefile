@@ -22,8 +22,8 @@ objects/main.o: main.cpp
 objects/Zombie.o: Zombie.cpp
 	$(CC) $(CFLAGS) -c Zombie.cpp -o objects/Zombie.o
 
-objects/newZombie.o: newZombie.cpp
-	$(CC) $(CFLAGS) -c newZombie.cpp -o objects/zombieHorde.o
+objects/zombieHorde.o: zombieHorde.cpp
+	$(CC) $(CFLAGS) -c zombieHorde.cpp -o objects/zombieHorde.o
 
 
 

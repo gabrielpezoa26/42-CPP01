@@ -1,6 +1,18 @@
 10/10/25
 
 
+ex01:
+	->construtores
+	-> atributos de classe
+
+
+
+
+
+
+
+
+
 estudar:
 
 	->destrutores
