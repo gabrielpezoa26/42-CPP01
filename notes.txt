@@ -8,11 +8,6 @@ ex01:
 
 
 
-
-
-
-
-
 estudar:
 
 	->destrutores

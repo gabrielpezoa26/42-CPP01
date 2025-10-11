@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:34:43 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/10 18:41:10 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/11 00:24:04 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 #include <iostream>
 #include <new>
 #include <unistd.h>
+#include <string>
+#include <sstream>
 
 class Zombie
 {
