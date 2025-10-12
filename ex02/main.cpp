@@ -1,23 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.cpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/08 14:52:03 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/12 13:57:35 by gcesar-n         ###   ########.fr       */
+/*   Created: 2025/10/12 14:16:31 by gcesar-n          #+#    #+#             */
+/*   Updated: 2025/10/12 14:16:31 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.hpp"
-
-Zombie::Zombie(std::string name)
-{
-	this->name = name;
-}
-
-Zombie::~Zombie()
-{
-	std::cout << this->name << " deallocated " << std::endl;
-}

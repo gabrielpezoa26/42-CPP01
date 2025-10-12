@@ -2,44 +2,7 @@
 
 
 ex01:
-	->construtores
-	-> atributos de classe
-
-
-
-
-estudar:
-
-	->destrutores
-
-	-> alocação de memória
-		-> new(), delete()
-		->stack
-			-> new[]
-		->heap
-
-
-
-	-> ponteiros
-		-> ponteiro para string
-		-> endereço de memória
-		-> manipulação de endereços
-
-
-	-> referências
-		-> referências a uma string
-
-
-
-	-> switch case
-
-
-
-
-
-
-
-
+	estudar delete
 
 
 links:

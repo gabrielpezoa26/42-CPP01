@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:34:34 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/12 13:53:35 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/12 14:12:29 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,9 @@ static int promptAmount()
 
 	std::cout << "number: ";
 	getline(std::cin, zombieAmount);
-	std::stringstream ss(zombieAmount);
-	ss >> result;
-	if (ss.fail() || result <= 0)
-		printMessage("vishh\n");
+	result = atoi(zombieAmount.c_str());
+	if (result <= 0)
+		printMessage("vishhh");
 	return (result);
 }
 
