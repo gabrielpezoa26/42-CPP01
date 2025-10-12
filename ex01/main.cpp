@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:34:34 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/11 00:42:51 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/12 13:53:35 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,12 @@ int main()
 {
 	std::string names;
 	int amount;
+	Zombie *horde;
 
 	amount = promptAmount();
 	names = promptNames();
-	zombieHorde(amount, names);  //dar free dps
+	horde = zombieHorde(amount, names);
+
+	delete[] horde;
 	return 0;
 }

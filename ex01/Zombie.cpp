@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:36:59 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/11 00:33:49 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/12 13:34:02 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void Zombie::setZombieName(std::string given_name)
 
 Zombie::Zombie()
 {
-	announce();
+	// announce();
 }
 
 Zombie::Zombie(std::string name)
