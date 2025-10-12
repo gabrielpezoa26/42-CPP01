@@ -2,4 +2,8 @@
 a.out
 
 *.o
+
+# binaries
+
 brainz
+zombieHorde

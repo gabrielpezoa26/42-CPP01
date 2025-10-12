@@ -1,15 +1,17 @@
-10/10/25
+12/10/25
 
 
-ex01:
-	estudar delete
+ex02:
+	->referencia a string ponteiro
+	-> printar endereço d memoria
+	->
 
 
 links:
 
-	https://cplusplus.com/doc/tutorial/dynamic/
-
 	https://cplusplus.com/doc/tutorial/pointers/
+
+	https://cplusplus.com/forum/beginner/224608/
 
 	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only
 
