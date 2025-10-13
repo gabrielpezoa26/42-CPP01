@@ -6,15 +6,24 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:34:34 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/12 19:02:16 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/12 21:21:42 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-void printMessage(std::string message)
+
+static void printMessage(std::string message, int flag);
+static int promptAmount();
+static std::string promptNames();
+static void printDelay();
+
+void printMessage(std::string message, int flag)
 {
-	std::cout << message << std::endl;
+	if (flag == 1)
+		std::cout << message << std::endl;
+	else if (flag == 0)
+		std::cout << message;
 }
 
 static int promptAmount()
@@ -22,15 +31,15 @@ static int promptAmount()
 	std::string zombieAmount;
 	int result = 0;
 
-	std::cout << "number: ";
+	printMessage(" how many zombies do you want? ", 0);
 	getline(std::cin, zombieAmount);
 	
 	std::stringstream ss(zombieAmount);
 	ss >> result;
-	if (ss.fail())
+	if (ss.fail() || result <= 0)
 	{
-		printMessage("vishhh");
-		return 1;
+		printMessage("Error! Invalid zombie amount. Exiting program.", 1);
+		exit(EXIT_FAILURE);
 	}
 	return (result);
 }
@@ -39,9 +48,24 @@ static std::string promptNames()
 {
 	std::string zombieNames;
 
-	std::cout << "names: ";
+	std::cout << " and how do you wanna name them all? ";
 	getline(std::cin, zombieNames);
+	if (zombieNames.empty())
+	{
+		printMessage("Error! Empty name. Exiting program.", 1);
+		exit(EXIT_FAILURE);
+	}
 	return (zombieNames);
+}
+
+static void printDelay()
+{
+	printMessage("creating zombies...", 1);
+	sleep(2);
+	printMessage("...", 1);
+	sleep(2);
+	printMessage("Zombies ready!\n", 1);
+	sleep(2);
 }
 
 int main()
@@ -50,10 +74,12 @@ int main()
 	int amount;
 	Zombie *horde;
 
+	printMessage("Welcome to zombieFactory!", 0);
 	amount = promptAmount();
 	names = promptNames();
-	horde = zombieHorde(amount, names);
+	printDelay();
 
+	horde = zombieHorde(amount, names);
 	delete[] horde;
 	return 0;
 }

@@ -1,4 +1,4 @@
-NAME = zombieHorde
+NAME = zombieFactory
 OBJECTS = objects/main.o objects/Zombie.o objects/zombieHorde.o
 
 CC = c++
@@ -33,7 +33,7 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 
-run:
+run: all
 	./$(NAME)
 
 val: all

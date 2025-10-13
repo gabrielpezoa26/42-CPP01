@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:36:59 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/12 13:34:02 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/12 21:13:43 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void Zombie::announce()
 {
-	std::cout << "BraiiiiiiinnnzzzZ\n" << std::endl;
+	std::cout << "BraiiiiiiinnnzzzZ" << std::endl;
 }
 
 void Zombie::setZombieName(std::string given_name)

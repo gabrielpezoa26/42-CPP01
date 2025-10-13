@@ -1,10 +1,14 @@
 12/10/25
 
 
+ex01:
+	-> mudar tratamento de erros cpa
+
+
+
 ex02:
 	->referencia a string ponteiro
 	-> printar endereço d memoria
-	->
 
 
 links:
