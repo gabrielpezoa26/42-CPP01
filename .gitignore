@@ -7,3 +7,11 @@ a.out
 
 brainz
 zombieFactory
+mangoloko
+
+
+
+  std::string original = "Hello World";
+
+    // Create a reference to the original string
+    std::string& stringRef = original;

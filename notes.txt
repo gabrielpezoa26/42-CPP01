@@ -1,14 +1,10 @@
 12/10/25
 
 
-ex01:
-	-> mudar tratamento de erros cpa
-
-
-
-ex02:
-	->referencia a string ponteiro
-	-> printar endereço d memoria
+estudar:
+	->pra q serve referencias na pratica
+	-> oq eh referencia constante
+	-> quando usar ponteiros vs referências
 
 
 links:
