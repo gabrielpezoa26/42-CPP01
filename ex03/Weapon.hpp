@@ -6,11 +6,11 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 13:24:25 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/13 15:20:21 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/13 19:25:04 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifdef WEAPON_HPP
+#ifndef WEAPON_HPP
 #define WEAPON_HPP
 
 #include <string>

@@ -3,16 +3,8 @@ a.out
 
 *.o
 
-# binaries
 
 brainz
 zombieFactory
 mangoloko
 combat
-
-
-
-  std::string original = "Hello World";
-
-    // Create a reference to the original string
-    std::string& stringRef = original;

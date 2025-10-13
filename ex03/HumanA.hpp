@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 13:24:14 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/13 15:49:12 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/13 18:15:33 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,14 +22,14 @@ class HumanA
 	private:
 	// Weapon() Weapon;
 	std::string name;
-	void attack(std::string name, std::string type);
-
-
+	
+	
 	public:
 	HumanA();
 	~HumanA();
-	std::string getName();
 	void setName(std::string new_name);
+	std::string getName() const;
+	void attack(std::string name, std::string type);
 };
 
 #endif
