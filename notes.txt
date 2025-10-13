@@ -7,6 +7,12 @@ estudar:
 	-> quando usar ponteiros vs referências
 
 
+
+ex03:
+	-> estudar como q usa classe Weapon dentro de 'Human'
+
+
+
 links:
 
 	https://cplusplus.com/doc/tutorial/pointers/
