@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 13:24:18 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/13 18:15:39 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/14 13:35:50 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,16 +20,17 @@
 class HumanB
 {
 	private:
-	Weapon *mangoloko;
+	Weapon Weapon;
 	std::string name;
 	
 	
 	public:
 	HumanB();
 	~HumanB();
+	void attack();
+
 	void setName(std::string new_name);
 	std::string getName()const;
-	void attack(std::string name, std::string type);
 };
 
 #endif

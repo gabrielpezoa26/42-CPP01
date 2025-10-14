@@ -9,15 +9,12 @@ estudar:
 
 
 ex03:
+	-> revisar estrutura d classes
 	-> estudar como q usa classe Weapon dentro de 'Human'
 
 
 
 links:
-
-	https://cplusplus.com/doc/tutorial/pointers/
-
-	https://cplusplus.com/forum/beginner/224608/
 
 	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only
 
