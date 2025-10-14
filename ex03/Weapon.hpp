@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 13:24:25 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/14 14:01:10 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/14 19:34:11 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,19 +22,11 @@ class Weapon
 
 	
 	public:
-	std::string getType() const;
-	void setType(std::string new_type);
+	Weapon(const std::string& initialType);
 
-	
-	void setWeapon(std::string new_weapon);
+	const std::string& getType() const;
+	void setType(std::string& new_type);
+
 };
 
 #endif
-
-/*
-	Implemente uma classe Weapon que tenha:
-			• Um atributo privado type, que é uma string.
-			• Uma função membro getType() que retorna uma referência constante a type.
-			• Uma função membro setType() que define type usando o novo valor passado como
-		um parâmetro.
-*/

@@ -6,24 +6,23 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 13:24:23 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/14 13:45:36 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/14 19:21:27 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
 
-std::string Weapon::getType() const
+Weapon::Weapon(const std::string& initialType)
 {
-	return type;
+	this->type = initialType;
 }
 
-void Weapon::setType(std::string new_type)
+const std::string& Weapon::getType() const
 {
-	type = new_type;
+	return this->type;
 }
 
-
-void Weapon::setWeapon(std::string new_weapon)
+void Weapon::setType(std::string& new_type)
 {
-	type = new_weapon;
+	this->type = new_type;
 }
