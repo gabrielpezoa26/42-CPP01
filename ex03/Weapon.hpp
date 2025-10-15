@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 13:24:25 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/14 19:34:11 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/14 21:03:49 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@ class Weapon
 
 	
 	public:
-	Weapon(const std::string& initialType);
+	Weapon(const std::string& given_type);
 
 	const std::string& getType() const;
-	void setType(std::string& new_type);
+	void setType(const std::string& new_type);
 
 };
 
