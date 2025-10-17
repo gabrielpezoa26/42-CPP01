@@ -1,20 +1,16 @@
-12/10/25
+15/10/25
 
 
 estudar:
-	->pra q serve referencias na pratica
-	-> oq eh referencia constante
-	-> quando usar ponteiros vs referências
 
 
-
-ex03:
-	-> revisar estrutura d classes
-	-> estudar como q usa classe Weapon dentro de 'Human'
-
+ex04:
+	./program text aaa yyy 
 
 
 links:
+
+	https://cplusplus.com/reference/fstream/fstream/open/
 
 	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only
 
