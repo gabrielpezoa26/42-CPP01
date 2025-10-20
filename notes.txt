@@ -14,8 +14,6 @@ links:
 
 	https://cplusplus.com/doc/tutorial/files/
 
-	https://github.com/madebypixel02/CPP-Module-01/blob/main/ex04/main.cpp
-
 	https://cplusplus.com/reference/fstream/fstream/open/
 
 	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only

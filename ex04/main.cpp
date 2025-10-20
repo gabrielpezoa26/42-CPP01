@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 21:00:37 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/20 12:15:14 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/20 14:11:12 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,11 @@
 
 int main(int argc, char **argv)
 {
-	if (!check_argc(argc) || !parse_args(argv))
+	if (!check_argc(argc))
 		return 1;
+	parse_args(argv);
+
+
 	// replace_loop();
 	return (0);
 	
