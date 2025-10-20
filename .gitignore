@@ -2,10 +2,11 @@
 a.out
 
 *.o
+*.replace
 
 # binaries
 brainz
 zombieFactory
 mangoloko
 combat
-sed
+not_sed

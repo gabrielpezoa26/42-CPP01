@@ -5,9 +5,8 @@ estudar:
 
 
 ex04:
-	./program text aaa yyy 
+	tirar msgs DEBUG 
 	trocar nomes d variavel
-	trocar msgs d erro
 
 
 links:

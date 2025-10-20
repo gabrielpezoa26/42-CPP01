@@ -1,4 +1,4 @@
-NAME = sed
+NAME = not_sed
 OBJECTS = objects/main.o objects/utils.o
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
