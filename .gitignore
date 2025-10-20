@@ -3,8 +3,9 @@ a.out
 
 *.o
 
-
+# binaries
 brainz
 zombieFactory
 mangoloko
 combat
+sed

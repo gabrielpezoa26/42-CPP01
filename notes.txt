@@ -6,9 +6,15 @@ estudar:
 
 ex04:
 	./program text aaa yyy 
+	trocar nomes d variavel
+	trocar msgs d erro
 
 
 links:
+
+	https://cplusplus.com/doc/tutorial/files/
+
+	https://github.com/madebypixel02/CPP-Module-01/blob/main/ex04/main.cpp
 
 	https://cplusplus.com/reference/fstream/fstream/open/
 
