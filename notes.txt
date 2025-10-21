@@ -8,6 +8,12 @@ ex04:
 	tirar msgs DEBUG 
 	trocar nomes d variavel
 
+ex05:
+	-> estudar ponteiros para funçoes membro
+		-> praq serve
+		-> sintaxe
+	-> switch case
+
 
 links:
 
