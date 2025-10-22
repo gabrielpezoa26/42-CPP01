@@ -1,21 +1,25 @@
-15/10/25
+22/10/25
 
 
 estudar:
+	ex04:
+		tirar msgs DEBUG
+		trocar nomes d variavel
 
-
-ex04:
-	tirar msgs DEBUG 
-	trocar nomes d variavel
-
-ex05:
-	-> estudar ponteiros para funçoes membro
-		-> praq serve
-		-> sintaxe
-	-> switch case
+	ex05:
+		-> estudar ponteiros para funçoes membro
+			-> praq serve
+			-> sintaxe
+		-> switch case
 
 
 links:
+
+	https://isocpp.org/wiki/faq/pointers-to-members
+
+	https://en.cppreference.com/w/cpp/language/switch.html
+
+
 
 	https://cplusplus.com/doc/tutorial/files/
 
@@ -23,4 +27,3 @@ links:
 
 	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only
 
-	https://en.cppreference.com/w/cpp/language/switch.html
