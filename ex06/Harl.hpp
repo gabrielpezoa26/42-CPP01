@@ -5,14 +5,17 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/20 17:13:03 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/22 14:49:54 by gcesar-n         ###   ########.fr       */
+/*   Created: 2025/10/22 19:06:52 by gcesar-n          #+#    #+#             */
+/*   Updated: 2025/10/22 19:19:08 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef HARL_HPP
+#define HARL_HPP
+
 #include <iostream>
 
-class Harl
+Class Harl
 {
 	private:
 		void debug(void);
@@ -26,3 +29,5 @@ class Harl
 		~Harl();
 		void complain(std::string level);
 };
+
+#endif

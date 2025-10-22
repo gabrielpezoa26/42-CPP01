@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:34:34 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/12 21:21:42 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/22 19:22:27 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ static int promptAmount();
 static std::string promptNames();
 static void printDelay();
 
-void printMessage(std::string message, int flag)
+static void printMessage(std::string message, int flag)
 {
 	if (flag == 1)
 		std::cout << message << std::endl;

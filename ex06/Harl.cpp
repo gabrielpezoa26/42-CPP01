@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/21 19:44:42 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/22 19:30:01 by gcesar-n         ###   ########.fr       */
+/*   Created: 2025/10/22 19:16:55 by gcesar-n          #+#    #+#             */
+/*   Updated: 2025/10/22 19:18:55 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,20 @@ void Harl::error(void)
 	std::cout << "Isto é inaceitável! Eu quero falar com o gerente agora." << std::endl;
 }
 
+// tirar os if
+// void Harl::complain(std::string level)
+// {
+// 	if (level == "DEBUG")
+// 		debug();
+// 	else if (level == "INFO")
+// 		info();
+// 	else if (level == "WARNING")
+// 		warning();
+// 	else if (level == "ERROR")
+// 		error();
+// }
+
+//validar level
 void	Harl::complain(std::string level)
 {
 	void		(Harl::*ptrToComplain[4])(void) = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};

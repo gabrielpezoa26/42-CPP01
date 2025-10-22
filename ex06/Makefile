@@ -1,6 +1,5 @@
-NAME = this_is_brain
-OBJECTS = objects/main.o
-
+NAME = harlFilter
+OBJECTS = objects/main.o objects/Harl.o
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 OBJ_DIR = objects
@@ -19,6 +18,8 @@ $(OBJ_DIR):
 objects/main.o: main.cpp
 	$(CC) $(CFLAGS) -c main.cpp -o objects/main.o
 
+objects/Harl.o: Harl.cpp
+	$(CC) $(CFLAGS) -c Harl.cpp -o objects/Harl.o
 
 
 clean:

@@ -7,10 +7,9 @@ estudar:
 		trocar nomes d variavel
 
 	ex05:
-		-> estudar ponteiros para funçoes membro
-			-> praq serve
-			-> sintaxe
-		-> switch case
+		-> fzr o loop
+
+
 
 
 links:
@@ -26,4 +25,15 @@ links:
 	https://cplusplus.com/reference/fstream/fstream/open/
 
 	https://www.ibm.com/docs/en/i/7.4.0?topic=declarators-references-c-only
+
+
+
+ponteiros p funçao membro:
+
+	int (MyClass::*ptrToAdd)(int, int) = &MyClass::add;
+
+
+	int add(int x, int y) {
+		return x + y + value;
+	}
 
