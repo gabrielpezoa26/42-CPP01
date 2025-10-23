@@ -28,11 +28,5 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 
-#apagar dps
-run: all
-	./$(NAME) file.txt aaa yyy
-
-val: all
-	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./$(NAME)
 
 re: fclean all

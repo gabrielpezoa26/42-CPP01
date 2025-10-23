@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/08 14:52:00 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/10 16:32:37 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/23 10:43:57 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ static void printMessage(std::string to_print, int flag)
 static void printDelay()
 {
 	printMessage("manufactoring zombies...", 0);
-	sleep(2);
+	sleep(1);
 	printMessage("...", 0);
-	sleep(2);
+	sleep(1);
 	printMessage("...", 0);
 	sleep(3);
 	printMessage("zombies are ready!\n", 0);
@@ -56,7 +56,6 @@ int main()
 
 	printDelay();
 	zombie_Pointer = newZombie(heapZombie);
-	std::cout << "zombie " << heapZombie << " allocated" << std::endl;
 	randomChump(stackZombie);
 	delete zombie_Pointer;
 	return 0;

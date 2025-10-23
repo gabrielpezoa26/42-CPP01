@@ -6,17 +6,11 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 16:34:34 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/22 19:22:27 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/23 10:45:39 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
-
-
-static void printMessage(std::string message, int flag);
-static int promptAmount();
-static std::string promptNames();
-static void printDelay();
 
 static void printMessage(std::string message, int flag)
 {

@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 19:06:52 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/22 19:19:08 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/23 10:19:26 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 #include <iostream>
 
-Class Harl
+class Harl
 {
 	private:
 		void debug(void);

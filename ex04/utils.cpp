@@ -6,7 +6,7 @@
 /*   By: gcesar-n <gcesar-n@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 14:47:42 by gcesar-n          #+#    #+#             */
-/*   Updated: 2025/10/20 17:10:37 by gcesar-n         ###   ########.fr       */
+/*   Updated: 2025/10/23 09:47:08 by gcesar-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ bool check_argc(int argc)
 {
 	if (argc != 4)
 	{
-		std::cout << "DEBUG: error on argc" << std::endl;
+		std::cout << " error on argc" << std::endl;
 		return (false);
 	}
 	return (true);
@@ -56,7 +56,7 @@ std::string parse_args(char **argv)
 	in.open (argv[1]);
 	if (in.fail())
 	{
-		std::cout << "DEBUG: error opening file" << std::endl;
+		std::cout << " error opening file" << std::endl;
 		exit(EXIT_FAILURE);
 	}
 	while(true)
@@ -68,6 +68,5 @@ std::string parse_args(char **argv)
 		result += c;
 	}
 	in.close();
-	std::cout << "DEBUG: deu bom" << std::endl;
 	return (result);
 }
